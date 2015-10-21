@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LajtiCodeKatas", "LajtiCodeKatas\LajtiCodeKatas.csproj", "{0F040816-DDB5-4D87-9915-A3BAA7D893DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{26A80F70-05C7-40DB-88A2-AC9796C908E5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LajtiCodeKatasUnitTests", "LajtiCodeKatasUnitTests\LajtiCodeKatasUnitTests.csproj", "{ED08912D-EF81-42BF-9F7E-7CB4B4928475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F040816-DDB5-4D87-9915-A3BAA7D893DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F040816-DDB5-4D87-9915-A3BAA7D893DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F040816-DDB5-4D87-9915-A3BAA7D893DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F040816-DDB5-4D87-9915-A3BAA7D893DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED08912D-EF81-42BF-9F7E-7CB4B4928475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED08912D-EF81-42BF-9F7E-7CB4B4928475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED08912D-EF81-42BF-9F7E-7CB4B4928475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED08912D-EF81-42BF-9F7E-7CB4B4928475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
