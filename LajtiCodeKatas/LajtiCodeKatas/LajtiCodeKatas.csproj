@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LajtiBinaryChop.cs" />
     <Compile Include="LajtiStack.cs" />
     <Compile Include="LajtiStringCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
