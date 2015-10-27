@@ -49,6 +49,8 @@
     <Compile Include="LajtiStackTest.cs" />
     <Compile Include="LajtiStringCalculatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleInterfaceTest.cs" />
+    <Compile Include="SimpleClassTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LajtiCodeKatas\LajtiCodeKatas.csproj">

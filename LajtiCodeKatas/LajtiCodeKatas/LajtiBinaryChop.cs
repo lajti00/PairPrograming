@@ -8,41 +8,31 @@ namespace LajtiCodeKatas
 {
     public class LajtiBinaryChop
     {
-        public void RandomArrayGen(ref int[] randA, int min, int max)
+
+        public int[] Find(int[] orderedArray, int valueToFind)
         {
-            Random rnd = new Random();
-            randA[0] = min;//rnd.Next(min, max);
-            for (int i = 1; i < randA.Length; i++)
+            var indexesList = FindValuesInArray(orderedArray, valueToFind);
+
+            var indexes = indexesList.ToArray();
+            if (indexes.Length == 0)
             {
-                if (randA[i - 1] < max)
-                {
-                    randA[i] = rnd.Next(randA[i - 1] + 1, max);
-                }
-                else
-                {
-                    randA[i] = max;
-                }
+                return new[]{-1};
             }
-            
-        } 
-        public int[] find(int[] array, int value)
+
+            return indexes;
+        }
+
+        private static List<int> FindValuesInArray(int[] orderedArray, int valueToFind)
         {
-            List<int> indexesList = new List<int>();
-            for (int i = 0; i < array.Length; i++)
+            var indexesList = new List<int>();
+            for (var i = 0; i < orderedArray.Length; i++)
             {
-                if (array[i] == value)
+                if (orderedArray[i] == valueToFind)
                 {
                     indexesList.Add(i);
                 }
             }
-            int[] indexes = indexesList.ToArray();
-            if (indexes.Length == 0)
-            {
-                Array.Resize(ref indexes, 1);
-                indexes[0] = -1;
-            }
-
-            return indexes;
+            return indexesList;
         }
     }
 }

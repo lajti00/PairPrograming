@@ -40,5 +40,6 @@ namespace LajtiCodeKatas
             get { return _container.Count; }
         }
 
+
     }
 }
