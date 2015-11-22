@@ -48,6 +48,7 @@
     <Compile Include="LajtiBinaryChopTest.cs" />
     <Compile Include="LajtiStackTest.cs" />
     <Compile Include="LajtiStringCalculatorTest.cs" />
+    <Compile Include="PriceCalculatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleInterfaceTest.cs" />
     <Compile Include="SimpleClassTest.cs" />
